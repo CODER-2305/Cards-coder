@@ -1,0 +1,43 @@
+@media(max-width: 991px)
+{
+    body::before
+    {
+clip-path: circle(0px at center);
+
+    }
+    .container
+    {
+        width: 100%;
+        height: initial;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+    .container .card
+    {
+    position: relative;
+    top: initial;
+    left: initial;
+    transform: initial;
+    margin: 20px;
+    opacity: 1 !important;
+
+    }
+    .container:hover,
+    .container:hover  .card
+    {
+        position: relative;
+        top: initial;
+        left: initial;
+        transform: initial;
+    }
+    .container.card .content
+    {
+        transform: initial;
+        opacity: 1;
+
+    }
+}
